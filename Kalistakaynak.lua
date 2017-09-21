@@ -36,7 +36,7 @@ function GetPacketsFromLib:Version()
 	return league
 end
 
---{ CustomPermaShow.lua from https://github.com/Superx321/BoL/blob/master/common/CustomPermaShow.lua
+--{ CustomPermaShow.lua from https://github.com/PratikHackTR/K-t-phane/blob/master/CPS.lua
 
 --version = 1.09
 
@@ -45,11 +45,11 @@ if not _G.HidePermaShow then
 end
 
 if not _G.CPS then
-	if GetSave("scriptConfig")["Master"] == nil then return end
+	if GetSave("scriptConfig")["PH"] == nil then return end
 	_G.CPS = {}
 	_G.CPS.Index = {}
 	_G.CPS.NoIndex = {}
-	_G.CPS.StartY = GetSave("scriptConfig")["Master"].py
+	_G.CPS.StartY = GetSave("scriptConfig")["PH"].py
 	_G.CPS.LastCheck = 0
 	_G._DrawText = DrawText
 	DelayAction(function() 	_G.CPS.OldCountDone = true end, 3)
@@ -57,7 +57,7 @@ if not _G.CPS then
 end
 
 function CustomPermaShow(TextVar, ValueVar, VisibleVar, PermaColorVar, OnColorVar, OffColorVar, IndexVar)
-	if GetSave("scriptConfig")["Master"] == nil then return end
+	if GetSave("scriptConfig")["PH"] == nil then return end
 	if IndexVar then
 		local ItsNew = true
 		for i = 1,#_G.CPS.Index do
@@ -146,7 +146,7 @@ function _GetPermaColor(PermaTable)
 end
 
 function _DrawCustomPermaShow()
-	_CPS_Master = GetSave("scriptConfig")["Master"]
+	_CPS_Master = GetSave("scriptConfig")["PH"]
 	_CPS_Master.py1 = _CPS_Master.py
 	_CPS_Master.py2 = _CPS_Master.py
 	_CPS_Master.color = { lgrey = 1413167931, grey = 4290427578, green = 1409321728}
@@ -188,12 +188,12 @@ function DrawText(Arg1, Arg2, Arg3, Arg4, Arg5)
 	if not (IsKeyDown(PressingKey) and IsKeyDown(1)) and _G.CPS.WaitForRelease then
 		_G.CPS.WaitForRelease = false
 		_G.CPS.OldCountDone = false
-		_G.CPS.StartY = GetSave("scriptConfig")["Master"].py
+		_G.CPS.StartY = GetSave("scriptConfig")["PH"].py
 		DelayAction(function() 	_G.CPS.OldCountDone = true end, 0.5)
 	end
 
 	if not _G.CPS.OldCountDone then
-		_CPS_Master = GetSave("scriptConfig")["Master"]
+		_CPS_Master = GetSave("scriptConfig")["PH"]
 		if Arg3 == _CPS_Master.px then
 			if Arg4 > _G.CPS.StartY then
 				_G.CPS.StartY = Arg4
