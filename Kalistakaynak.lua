@@ -5,7 +5,7 @@ local league = "7.4.";
 local author = "PratikHack";
 local SCRIPT_NAME = "Kalsitakaynak";
 local UPDATE_HOST = "raw.githubusercontent.com";
-local UPDATE_PATH = "/spyk1/BoL/master/bundle/SpikeLib.lua".."?rand="..math.random(1,10000);
+local UPDATE_PATH = "PratikHackTR/K-t-phane/master/Kalistakaynak.lua".."?rand="..math.random(1,10000);
 local UPDATE_FILE_PATH = LIB_PATH .. "Kalistakaynak.lua";
 local UPDATE_URL = "https://"..UPDATE_HOST..UPDATE_PATH;
 local ServerData = GetWebResult(UPDATE_HOST, "/PratikHackTR/Update-PratikHack/master/Kalistakaynak.version");
