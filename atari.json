@@ -1,0 +1,54 @@
+{
+  "storeName": "Leko Store",
+  "version": "1.0",
+  "items": [
+    {
+      "titleid": "CUSA07214",
+      "contentid": "EP0182-CUSA07214_00-FLASHBACK000VOL1",
+      "type": "game",
+      "name": "Atari Flashback Classics vol.1 - [EU] [EN] [1.01]",
+      "icon": "https://ps4.lekostore.com/7dfg8dfg8gfd43j5nj453nknjk543f/bfhc79g8g79gbhf797hgf8b978g9hf789cb789cghg789bcf789/oyunfotolari/PublicOyunlar/CUSA07214.png",
+      "links": [
+        {
+          "name": "Yükle [268MB]",
+          "link": "https://archive.org/download/ps4-fpkg-collection-english-a/Atari%20Flashback%20Classics%20vol.1%20-%20%5BEU%5D%20%5BEN%5D%20%5B1.01%5D.pkg"
+        }
+      ],
+      "categories": [
+        "Atari"
+      ]
+    },
+    {
+      "titleid": "CUSA07213",
+      "contentid": "EP0182-CUSA07213_00-FLASHBACK000VOL2",
+      "type": "game",
+      "name": "Atari Flashback Classics vol.2 - [EU] [EN] [1.00]",
+      "icon": "https://ps4.lekostore.com/7dfg8dfg8gfd43j5nj453nknjk543f/bfhc79g8g79gbhf797hgf8b978g9hf789cb789cghg789bcf789/oyunfotolari/PublicOyunlar/CUSA07213.png",
+      "links": [
+        {
+          "name": "Yükle [274MB]",
+          "link": "https://archive.org/download/ps4-fpkg-collection-english-a/Atari%20Flashback%20Classics%20vol.2%20-%20%5BEU%5D%20%5BEN%5D%20%5B1.00%5D.pkg"
+        }
+      ],
+      "categories": [
+        "Atari"
+      ]
+    },
+    {
+      "titleid": "CUSA09458",
+      "contentid": "UP0182-CUSA09458_00-FLASHBACK000VOL3",
+      "type": "game",
+      "name": "Atari Flashback Classics vol.3 - [US] [EN] [1.04]",
+      "icon": "https://ps4.lekostore.com/7dfg8dfg8gfd43j5nj453nknjk543f/bfhc79g8g79gbhf797hgf8b978g9hf789cb789cghg789bcf789/oyunfotolari/PublicOyunlar/CUSA09458.png",
+      "links": [
+        {
+          "name": "Yükle [93MB]",
+          "link": "https://archive.org/download/ps4-fpkg-collection-english-a/Atari%20Flashback%20Classics%20vol.3%20-%20%5BUS%5D%20%5BEN%5D%20%5B1.04%5D.pkg"
+        }
+      ],
+      "categories": [
+        "Atari"
+      ]
+    }
+  ]
+}
