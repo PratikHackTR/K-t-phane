@@ -1,0 +1,22 @@
+{
+  "storeName": "PHStore ",
+  "version": "1.0",
+  "items": [
+    {
+      "titleid": "X",
+      "contentid": "X",
+      "type": "game",
+      "name": "Kao the Kangaroo: Round 2",
+      "icon": "https://upload.wikimedia.org/wikipedia/en/7/79/Kao_the_Kangaroo_Round_2_Coverart.png",
+      "links": [
+        {
+          "name": "Yükle [372 MB]",
+          "link": "http://storage.lekostore.com/ps4/ps2oyunlari/KaotheKangarooRound2.pkg"
+        }
+      ],
+      "categories": [
+        "Türkçe Oyunlar",
+        "PS2"
+      ]
+    }
+    }
