@@ -7,7 +7,7 @@
       "contentid": "X",
       "type": "game",
       "name": "Kao the Kangaroo: Round 2",
-      "icon": "http://127.0.0.1:18888/resimler/test.png",
+      "icon": "file:///data/GoldHEN/cache/PHStoreMedia/resimler/test.png",
       "links": [
         {
           "name": "Yükle [372 MB]",
